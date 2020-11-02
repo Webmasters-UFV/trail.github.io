@@ -1,0 +1,190 @@
+*{padding:0;
+	margin:0;
+	background-color:#fbf7f7;}
+
+
+
+
+
+
+
+li{list-style-type:none;
+	display:inline-block;
+	}
+
+
+li a {text-decoration:none;
+	color:#7f7f7f;
+	padding:18px;
+	font-size:25px;
+	float:right;
+	margin-top:70px;
+	font-family:sans-serif;
+	width:100%;}
+
+
+@media only screen and (max-width:900px){
+ul li {display:block;
+	flex-direction:column;
+	text-align:center;
+	padding:0px;
+	margin:0;}
+li a  {margin-top:10px;
+	clear:right;
+	text-align:center;
+	margin-left:0;
+	padding:0;
+	}
+.home{padding:0px;
+	margin:0;}
+
+		}
+
+
+
+@media only screen and (max-width:1300px){
+
+.home{padding-left:100px;}
+
+}
+
+@media only screen and (max-width:1200px){
+.home{padding-left:50px;
+	}	
+li a {padding:10px;}	}
+
+
+@media only screen and (max-width:480px){
+#imagemapping { display:none;}
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+hr {width:50%;
+	color:#7f7f7f;
+	background-color:#7f7f7f;
+	height:3px;
+	margin:60px 0 60px 0;
+	
+	}
+
+
+.buttons{background-image:url(homepage.jpg);
+	background-position: center;
+ 	background-repeat: repeat;
+  	background-size: cover;
+	height: 100%; 
+	height:70vh;
+
+}
+
+.button1, .button2 {margin-right:300px;}
+
+
+.button1 {margin-left:230px;}
+
+.button1, .button2, .button3 {margin-top:200px;}
+
+
+
+
+label {color:#fba746;
+	font-size:70px;
+	font-family: 'Kaushan Script', cursive;
+	margin-left:50px;
+	margin-top:40px;
+	float:left;
+	display:block; 
+	margin-right:100px;}
+
+li a:hover {color:#fba746;}
+
+
+
+nav {height:200px;
+	background:#fbf7f7;}
+
+.chefimage {margin:0px 100px 0px 0px;
+		}
+.headchef{color:#fba746;
+	font-family: 'Kaushan Script', cursive;
+	font-size:35px;
+	text-align:center;
+	width:30%;}
+
+
+.chef {float:left;
+	margin-left:150px;
+	margin-top:70px;}
+
+
+.aboutus {font-size:25px;
+		font-family:helvetica;
+		float:right;
+		color:#7f7f7f;
+		margin-bottom:150px;}
+
+blockquote {margin-right:100px;
+		margin-top:200px;}
+
+@media only screen and (min-width:400;max-width:480px){
+
+.chefimage{float:none;
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;}
+
+blockquote {
+	float:none;
+	width:50%;
+	font-size:15px;
+	text-align:center;}
+
+}
+
+
+
+#menu{ 
+	color:#fba746;
+	font-family: 'Kaushan Script', cursive;}
+
+
+.Duck{padding-top:100px;
+	float:right;
+	padding-right:150px;}
+
+h1 {font-size:35px;}
+
+.duckp {font-size:25px;
+	color:#7f7f7f;
+	font-family:sans-serif;
+	padding-top:150px;
+	padding-left:150px;
+	margin-right:500px;
+	margin-bottom:150px;}
+
+
+figcaption {font-size:30px;
+		color:#7f7f7f;
+		align:center;
+		font-family:sans-serif;}
+
+.Accompaniments {list-style-type:none;
+		display:inline;
+		}
+
+.BookaTable{float:left;
+		width:50%;}
+
+.clickandcollect{float:right;
+		width:50%;}
+
+footer{background-color:#aaaaaa;
+	height:400px;
+	}
+
